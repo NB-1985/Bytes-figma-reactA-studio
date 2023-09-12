@@ -6,7 +6,7 @@ const Hero = () => {
 
         {/* hero section of homepage starts here */}
 
-        <div className="xl:flex 2xl:flex hidden lg:justify-end mt-6 ">
+        <div className="xl:flex 2xl:flex hidden lg:justify-end mt-6 " id='home'>
           <div className="h-[615px]  w-[95vw] flex justify-between ">
             <div className="flex items-center h-[615px]">
               <div className="relative h-[272.3px] w-[552.57px] flex flex-col justify-between">
@@ -46,13 +46,13 @@ const Hero = () => {
 
         {/* for responsive below*/}
         <div className="sm:flex xl:hidden 2xl:hidden mt-6  ">
-          <div className=" lg:w-[100vw] md:w-[100vw] sm:flex-col-reverse   ">
+          <div className=" lg:w-[100vw] md:w-[100vw]    ">
             <div className="flex items-center w-full h-[400px] justify-center">
               <div className="relative h-[372.3px] w-[552.57px] flex flex-col items-center  justify-evenly ">
                 <div className="font-bold sm:text-[40px] text-[25px]">
                   A Digital Product Agency
                 </div>
-                <div className="sm:text-[20px] text-[20px] text-slate-500 leading-8 text-center ">
+                <div className="sm:text-[20px] text-[20px] text-slate-500 w-[90vw] leading-8 text-center ">
                   Leading digital agency with solid design and development
                   expertise. We build readymade websites, mobile applications,
                   and elaborate online business services.
@@ -71,7 +71,7 @@ const Hero = () => {
               <img
                 src="./image 8.png"
                 alt=""
-                className=" relative z-10 w-full "
+                className=" relative z-10 w-[90vw] m-auto "
               />
               <img
                 src="./Ellipse 85.png"

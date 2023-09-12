@@ -5,7 +5,7 @@ const Footer = () => {
     <>
            <div className="  w-[90vw] mx-auto my-10 sm:flex-col sm:gap-36 xl:flex-row  lg:my-16 sm:mt-2 lg:flex  justify-center
           lg:justify-evenly xl:justify-between  sm:justify-center items-center">
-          <div className="flex flex-col gap-4    ">
+          <div className="flex flex-col gap-4 lg:w-[738px] xl:w-[290px]   ">
             <p className="font-bold text-xl">
               <span className="font-bold text-2xl " id="contact">A+</span> Studio
             </p>
@@ -21,7 +21,7 @@ const Footer = () => {
               {/* <div className="bg-stone-800 h-20 w-20 absolute -z-10"></div> */}
             </div>
           </div>
-          <div className=" hidden sm:flex xl:flex 2xl:flex  md:mt-10 lg:mt-0  lg:flex gap-24 lg:h-[214px]">
+          <div className=" hidden   sm:flex xl:flex 2xl:flex  md:mt-10 lg:mt-0  lg:flex gap-24 lg:h-[214px]">
             <div className="flex flex-col gap-4">
               <p className="font-bold text-[20px]">What We Do</p>
               <ul className="text-[14px]  text-slate-500">

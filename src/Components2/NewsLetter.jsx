@@ -3,7 +3,7 @@ import React from 'react'
 const NewsLetter = () => {
   return (
     <>
-            <div className="relative xl:flex 2xl:flex lg:flex hidden w-[90vw] h-[366px] m-auto mt-6  bg-sky-100 rounded-[75px]  justify-between">
+            <div className="relative xl:flex 2xl:flex lg:flex hidden w-[90vw] h-[366px] m-auto mt-6   bg-sky-100 rounded-[75px]  justify-between">
           <div className="flex flex-col m-auto ml-12 ">
             <p className="font-bold text-4xl leading-[60px]">
               Subscribe Newsletter
@@ -45,7 +45,7 @@ const NewsLetter = () => {
         </div>
 
         {/* for responsive below */}
-        <div className="sm:block hidden xl:hidden 2xl:hidden lg:hidden relative sm:w-[100vw] sm:h-[300px] m-auto mt-6  bg-sky-100 rounded-[75px]  justify-between">
+        <div className="sm:block hidden xl:hidden 2xl:hidden lg:hidden relative sm:w-[90vw] sm:h-[300px] m-auto my-6  bg-sky-100 rounded-[75px]  justify-between">
           <div className="flex flex-col m-auto justify-center items-center ml-12 ">
             <p className="font-bold mt-6 text-4xl leading-[60px]">
               Subscribe Newsletter
@@ -77,7 +77,7 @@ const NewsLetter = () => {
             </div>
           </div>
         </div>
-        <div className=" sm:hidden flex flex-col justify-evenly relative h-[300px]  mt-8  bg-sky-100 rounded-[75px]">
+        <div className=" sm:hidden flex flex-col justify-evenly relative h-[300px] w-[90vw] mx-auto  mt-8  bg-sky-100 rounded-[75px]">
           <div className="flex flex-col  justify-center items-center  ">
             <p className="font-bold mt-6 text-2xl leading-[60px]">
               Subscribe Newsletter

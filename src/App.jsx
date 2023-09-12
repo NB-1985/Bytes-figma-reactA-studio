@@ -8,6 +8,7 @@ import GreatSince from './Components2/GreatSince'
 import HappyClient from './Components2/HappyClient'
 import NewsLetter from './Components2/NewsLetter'
 import Footer from './Components2/Footer'
+import Nav from './Components2/Navbar2'
 const App = () => {
   return (
 <div>
