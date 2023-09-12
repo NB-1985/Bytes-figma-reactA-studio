@@ -1,27 +1,16 @@
 import React from "react";
+// import { useState,useRef } from "react";
+// import { BsList } from "react-icons/bs";
+// import { BsXSquare } from "react-icons/bs";
+import Navbar from "./Navbar";
 const Main = () => {
+
+
   return (
-    <div className=" h-screen bg-white">
-      <div className="sm:overflow-hidden overflow-hidden ">
+    <div className=" h-screen bg-white scroll-smooth snap-mandatory snap-y   " >
+      <div className="sm:overflow-hidden top-0  " id="container">
         {/* navbar starts here */}
-        <nav className="flex justify-center">
-          <div className=" h-10 flex justify-between w-[90vw]  items-center mt-4">
-            <div>
-              <span className="font-bold text-xl">A+</span> Studio
-            </div>
-            <div className="flex justify-center items-center">
-              <div className="xl:hidden 2xl:hidden lg:hidden">&#9776;</div>
-              <ul className=" lg:flex gap-10 hidden  ">
-                <li>Home</li>
-                <li>What We Do</li>
-                <li>Service</li>
-                <li>Project</li>
-                <li>Blog</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+       <Navbar/>
 
         {/* navbar ends here */}
 
@@ -92,7 +81,7 @@ const Main = () => {
               <img
                 src="./image 8.png"
                 alt=""
-                className=" relative z-10 w-full"
+                className=" relative z-10 w-full "
               />
               <img
                 src="./Ellipse 85.png"
@@ -157,7 +146,7 @@ const Main = () => {
         {/* client section ends here */}
 
         {/* how can we help starts here */}
-        <div className="hidden justify-end my-20  relative  xl:flex 2xl:flex">
+        <div className="hidden justify-end my-20  relative  xl:flex 2xl:flex " id="service">
           <div className="h-[867px] w-[95vw]  flex">
             <div className="flex items-center w-[30vw]">
               <div className=" flex flex-col relative ">
@@ -391,7 +380,7 @@ const Main = () => {
 
         {/* how can we help ends here */}
         {/* great since start here */}
-        <div className=" h-[440px] w-[90vw] m-auto sm:mt-56 xl:mt-10 2xl:mt-10 sm:gap-8 xl:gap-0 2xl:gap-0 hidden  sm:flex justify-between items-center">
+        <div className=" h-[440px] w-[90vw] m-auto sm:mt-56 xl:mt-10 2xl:mt-10 sm:gap-8 xl:gap-0 2xl:gap-0 hidden  sm:flex justify-between items-center" id="project">
           <div className="relative">
             <img
               src="./unsplash_bzqU01v-G54.png"
@@ -460,7 +449,7 @@ const Main = () => {
         </div>
         {/* great since ends here */}
         {/* happy client starts here */}
-        <div className="hidden relative h-[597px] w-[90vw]  m-auto mt-8 sm:mt-0 sm:flex justify-evenly  flex-col">
+        <div className="hidden relative h-[597px] w-[90vw]  m-auto mt-8 sm:mt-0 sm:flex justify-evenly  flex-col" id="blog">
           <div className="flex flex-col items-center gap-3 ">
             <div className="font-bold text-4xl ">What our happy client say</div>
             <p className="text-slate-500">
@@ -641,7 +630,7 @@ const Main = () => {
           lg:justify-evenly xl:justify-between  sm:justify-center items-center">
           <div className="flex flex-col gap-4    ">
             <p className="font-bold text-xl">
-              <span className="font-bold text-2xl">A+</span> Studio
+              <span className="font-bold text-2xl " id="contact">A+</span> Studio
             </p>
             <p className="text-[14px] text-slate-500  h-[110px] w-[286.57px] ">
               Leading digital agency with solid design and development
@@ -649,9 +638,9 @@ const Main = () => {
               elaborate online business services.
             </p>
             <div className="flex gap-4 relative">
-              <img src="./facebook.svg" alt="" />
-              <img src="./twitter.svg" alt="" />
-              <img src="./linkedin.svg" alt="" />
+            <a href="https://twitter.com"><img src="./facebook.svg" alt="" /></a>  
+             <a href="https://www.facebook.com"><img src="./twitter.svg" alt="" /></a>
+             <a href="https://www.linkedin.com"> <img src="./linkedin.svg" alt="" /></a>
               {/* <div className="bg-stone-800 h-20 w-20 absolute -z-10"></div> */}
             </div>
           </div>
