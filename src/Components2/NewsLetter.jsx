@@ -3,7 +3,8 @@ import React from 'react'
 const NewsLetter = () => {
   return (
     <>
-            <div className="relative xl:flex 2xl:flex lg:flex hidden w-[90vw] h-[366px] m-auto mt-6   bg-sky-100 rounded-[75px]  justify-between">
+    <div className='sm:pt-[113px]'>
+            <div className="relative xl:flex 2xl:flex lg:flex hidden w-[90vw] h-[292px] m-auto    bg-sky-100 rounded-[75px]  justify-between">
           <div className="flex flex-col m-auto ml-12 ">
             <p className="font-bold text-4xl leading-[60px]">
               Subscribe Newsletter
@@ -23,7 +24,7 @@ const NewsLetter = () => {
               <img
                 src="./Rectangle 31.png"
                 alt=""
-                className=" absolute right-[-52px] h-[366px] "
+                className=" absolute right-[-52px]  "
               />
               <img
                 src="./Group 73.svg"
@@ -42,6 +43,7 @@ const NewsLetter = () => {
               </button>
             </div>
           </div>
+        </div>
         </div>
 
         {/* for responsive below */}

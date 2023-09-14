@@ -6,7 +6,7 @@ const Hero = () => {
 
         {/* hero section of homepage starts here */}
 
-        <div className="xl:flex 2xl:flex hidden lg:justify-end mt-6 " id='home'>
+        <div className="xl:flex 2xl:flex hidden lg:justify-end sm:pt-[40px] " id='home'>
           <div className="h-[615px]  w-[95vw] flex justify-between ">
             <div className="flex items-center h-[615px]">
               <div className="relative h-[272.3px] w-[552.57px] flex flex-col justify-between">

@@ -3,7 +3,7 @@ import React from 'react'
 const Client = () => {
   return (
     <>
-            <div className="hidden  xl:flex 2xl:flex mt-8 w-[90vw] m-auto h-[124px]  justify-between">
+            <div className="hidden  xl:flex 2xl:flex sm:pt-[33px] w-[90vw] mx-auto h-[124px]  justify-between">
           <div className="flex flex-col justify-center gap-3">
             <div className="font-bold text-4xl">Our Client</div>
             <p className="w-[354px] text-slate-400">

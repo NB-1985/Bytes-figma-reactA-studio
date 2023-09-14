@@ -3,7 +3,7 @@ import React from 'react'
 const GreatSince = () => {
   return (
     <>
-           <div className=" h-[440px] w-[90vw] m-auto sm:mt-56 xl:mt-10 2xl:mt-10 sm:gap-8 xl:gap-0 2xl:gap-0 hidden  sm:flex justify-between items-center" id="project">
+           <div className=" h-[440px] w-[90vw] m-auto sm:pt-[146px] lg:mt-[150px]  xl:mt-0 sm:gap-8 xl:gap-0 2xl:gap-0 hidden  sm:flex justify-between items-center" id="project">
           <div className="relative">
             <img
               src="./unsplash_bzqU01v-G54.png"

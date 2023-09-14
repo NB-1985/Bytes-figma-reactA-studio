@@ -3,7 +3,7 @@ import React from 'react'
 const WeCanHelp = () => {
   return (
     <>
-            <div className="hidden justify-end my-20  relative  xl:flex 2xl:flex " id="service">
+            <div className="hidden justify-end pt-[94px]  relative  xl:flex 2xl:flex " id="service">
           <div className="h-[867px] w-[95vw]  flex">
             <div className="flex items-center w-[30vw]">
               <div className=" flex flex-col relative ">

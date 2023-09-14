@@ -3,7 +3,8 @@ import React from 'react'
 const HappyClient = () => {
   return (
     <>
-            <div className="hidden relative h-[597px] w-[90vw]  m-auto mt-8 sm:mt-0 sm:flex justify-evenly  flex-col" id="blog">
+    <div className='sm:pt-[113px]'>
+            <div className="hidden relative h-[597px] w-[90vw]  m-auto   sm:flex justify-evenly  flex-col" id="blog">
           <div className="flex flex-col items-center gap-3 ">
             <div className="font-bold text-4xl ">What our happy client say</div>
             <p className="text-slate-500">
@@ -45,6 +46,7 @@ const HappyClient = () => {
               />
             </div>
           </div>
+        </div>
         </div>
         {/* for responsive below */}
         <div className=" sm:hidden  w-[90vw] mt-16 m-auto  sm:mt-0 flex justify-evenly  flex-col">
