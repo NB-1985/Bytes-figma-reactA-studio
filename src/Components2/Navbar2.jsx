@@ -76,7 +76,7 @@ const Navbar2 = () => {
               </ul>
 
               {/* Responsive view */}
-              {/* <div
+              <div
                 onClick={handlenav}
                 className="lg:hidden xl:hidden block cursor-pointer  absolute top-0 right-0 z-10"
               >
@@ -118,7 +118,7 @@ const Navbar2 = () => {
                     </a>
                   </ul>
                 </ul>
-              </div> */}
+              </div>
             </div>
           </div>
         </nav>
