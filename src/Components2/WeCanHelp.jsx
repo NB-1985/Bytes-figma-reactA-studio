@@ -3,8 +3,8 @@ import React from 'react'
 const WeCanHelp = () => {
   return (
     <>
-            <div className=" justify-end  relative  flex " id="service">
-          <div className="xl:h-[867px] xl:w-[95vw]  flex flex-col  xl:flex-row">
+            <div className=" xl:justify-end  justify-center relative  flex " id="service">
+          <div className="xl:h-[867px] xl:w-[95vw] w-[90vw]  flex flex-col  xl:flex-row">
             <div className="flex items-center xl:w-[30vw]  justify-center xl:justify-start">
               <div className=" flex flex-col relative ">
                 <p className="font-[400]   leading-[60px] sm:text-[40px] text-[25px] text-center xl:text-start block  xl:w-[394.66px] xl:h-[120px] pb-3 xl:pb-0 relative z-10">
@@ -21,8 +21,8 @@ const WeCanHelp = () => {
                 />
               </div>
             </div>
-            <div className=" flex xl:justify-end xl:w-[70vw] w-[100vw] xl:mr-20  justify-center items-center pt-8 xl:pt-0 " >
-              <div className=" h-full flex items-center ">
+            <div className=" flex xl:justify-end xl:w-[70vw]  xl:mr-20  justify-center items-center pt-8 xl:pt-0 " >
+              <div className=" h-full flex  items-center ">
                 <img
                   src="./Rectangle 24.png"
                   alt=""
