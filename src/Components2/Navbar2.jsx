@@ -83,7 +83,7 @@ const Navbar2 = () => {
               >
                 {nav ? <BsXSquare size={30} /> : <BsList size={30} />}
               </div>
-              {/* <div className="w-full  absolute left-0 top-0  lg:hidden">
+              <div className="w-full  absolute left-0 top-0  lg:hidden">
                 <ul
                   className={`transition-all ease-in-out duration-700 xl:hidden lg:hidden relative
               ${
@@ -108,7 +108,7 @@ const Navbar2 = () => {
                     <li >Contact</li>
                   </a>
                 </ul>
-              </div> */}
+              </div>
             </div>
           </div>
         </nav>

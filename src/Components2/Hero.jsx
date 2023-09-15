@@ -4,7 +4,6 @@ const Hero = () => {
   return (
     <>
       {/* hero section of homepage starts here */}
-
       <div
         className="flex  xl:justify-end sm:justify-center justify-center   "
         id="home"
@@ -21,7 +20,7 @@ const Hero = () => {
               sm:items-center 
               items-center
               xl:items-start
-              flex flex-col xl:justify-between sm:justify-around justify-around"
+              flex flex-col xl:justify-between sm:justify-around justify-around z-[-10]" 
             >
               <div className="font-normal sm:text-4xl text-2xl  ">
                 A Digital Product Agency
@@ -45,7 +44,7 @@ const Hero = () => {
             <img
               src="./image 8.png"
               alt=""
-              className=" relative  z-10 sm:w-[90vw]   xl:w-auto"
+              className=" relative  xl:z-10 sm:w-[90vw] -z-10  xl:w-auto"
             />
             <img
               src="./Ellipse 85.png"
