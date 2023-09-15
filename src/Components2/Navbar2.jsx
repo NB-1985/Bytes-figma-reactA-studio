@@ -41,10 +41,10 @@ const Navbar2 = () => {
             : " relative"
         } 
       >
-        <nav className=" flex justify-center   bg-white/30 pt-[42px] backdrop-blur-md ">
+        <nav className=" flex justify-center   bg-white/30 pt-[42px] pb-[40px] backdrop-blur-md ">
           {/* Navbar container */}
           <div
-            className="flex justify-between w-[90vw]  h-[34px] items-center  relative"
+            className="flex justify-between w-[90vw] items-center  relative"
             ref={menu}
           >
             {/* left Navbar */}
@@ -76,7 +76,7 @@ const Navbar2 = () => {
               </ul>
 
               {/* Responsive view */}
-              <div
+              {/* <div
                 onClick={handlenav}
                 className="lg:hidden xl:hidden block cursor-pointer  absolute top-0 right-0 z-10"
               >
@@ -118,7 +118,7 @@ const Navbar2 = () => {
                     </a>
                   </ul>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

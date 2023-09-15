@@ -15,7 +15,7 @@ const App = () => {
 
 
   return (
-    <div className="h">
+    <div >
       <Navbar2 />
       <Hero />
       <Client />
