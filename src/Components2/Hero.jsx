@@ -17,7 +17,7 @@ const Hero = () => {
         >
           <div className="flex items-center h-[615px]">
             <div
-              className="relative h-[272.3px] w-[552.57px] 
+              className="relative h-[272.3px] xl:w-[552.57px] 
               sm:items-center 
               items-center
               xl:items-start
