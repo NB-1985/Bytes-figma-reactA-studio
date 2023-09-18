@@ -7,6 +7,7 @@ const Navbar2 = () => {
   const [stick, setstick] = useState(false);
   const handlenav = () => {
     setnav(!nav);
+    
   };
 
   const menu = useRef();
@@ -41,10 +42,10 @@ const Navbar2 = () => {
             : " relative"
         } 
       >
-        <nav className=" flex justify-center   bg-white/30 pt-[42px] backdrop-blur-md ">
+        <nav className=" flex justify-center   bg-white/30 pt-[42px] pb-[40px] backdrop-blur-md ">
           {/* Navbar container */}
           <div
-            className="flex justify-between w-[90vw]  h-[34px] items-center  relative"
+            className="flex justify-between w-[90vw] items-center  relative"
             ref={menu}
           >
             {/* left Navbar */}
@@ -58,7 +59,7 @@ const Navbar2 = () => {
             {/* lg container (Web view) */}
             <div className="flex justify-center items-center">
               <ul className=" lg:flex gap-10 hidden ">
-                <a className="hover:text-rose-600 " href={"#home"}>
+                <a className="hover:text-rose-600" href={"#home"}>
                   <li>Home</li>
                 </a>
                 <a className="hover:text-rose-600" href={"#service"}>
@@ -87,36 +88,25 @@ const Navbar2 = () => {
                   className={`transition-all ease-in-out duration-700 xl:hidden lg:hidden relative
               ${
                 nav
-                  ? " top-8  bg-white/30 backdrop-blur-md  h-[80vh] flex flex-col justify-around "
+                  ? " top-[68px]  bg-white/30 backdrop-blur-md  h-[70vh] flex flex-col justify-around "
                   : "-top-[217px]"
               }`}
                 >
                   <a className="hover:text-rose-600 " href={"#home"}>
-                    <li>Home</li>
+                    <li >Home</li>
                   </a>
                   <a className="hover:text-rose-600  " href={"#service"}>
-                    <li>Service</li>
+                    <li >Service</li>
                   </a>
                   <a className="hover:text-rose-600 " href={"#project"}>
-                    <li>Project</li>
+                    <li >Project</li>
                   </a>
                   <a className="hover:text-rose-600 " href={"#blog"}>
-                    <li>Blog</li>
+                    <li >Blog</li>
                   </a>
                   <a className="hover:text-rose-600 " href={"#contact"}>
-                    <li>Contact</li>
+                    <li >Contact</li>
                   </a>
-                  <ul className="flex gap-8 ">
-                    <a href="https://www.facebook.com">
-                      <img src="./facebook.svg" alt="" />
-                    </a>
-                    <a href="https://twitter.com">
-                      <img src="./twitter.svg" alt="" />
-                    </a>
-                    <a href="https://www.linkedin.com">
-                      <img src="./linkedin.svg" alt="" />
-                    </a>
-                  </ul>
                 </ul>
               </div>
             </div>
