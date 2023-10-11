@@ -20,7 +20,7 @@ const Hero = () => {
               sm:items-center 
               items-center
               xl:items-start
-              flex flex-col xl:justify-between sm:justify-around justify-around z-[-10]" 
+              flex flex-col xl:justify-between sm:justify-around justify-around z-[-10]"
             >
               <div className="font-normal sm:text-4xl text-2xl  ">
                 A Digital Product Agency
@@ -55,12 +55,10 @@ const Hero = () => {
               src="./Rectangle 23.png"
               alt=""
               className="absolute right-24 -bottom-24 hidden xl:block "
-            /> 
+            />
           </div>
         </div>
       </div>
-
-     
     </>
   );
 };

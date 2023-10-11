@@ -7,7 +7,6 @@ const Navbar2 = () => {
   const [stick, setstick] = useState(false);
   const handlenav = () => {
     setnav(!nav);
-    
   };
 
   const menu = useRef();
@@ -40,7 +39,7 @@ const Navbar2 = () => {
           stick
             ? "sticky top-[-40px] pt-[40px] z-50 transition-all ease-in duration-300"
             : " relative"
-        } 
+        }
       >
         <nav className=" flex justify-center   bg-white/30 pt-[42px] pb-[40px] backdrop-blur-md ">
           {/* Navbar container */}
@@ -93,19 +92,19 @@ const Navbar2 = () => {
               }`}
                 >
                   <a className="hover:text-rose-600 " href={"#home"}>
-                    <li >Home</li>
+                    <li>Home</li>
                   </a>
                   <a className="hover:text-rose-600  " href={"#service"}>
-                    <li >Service</li>
+                    <li>Service</li>
                   </a>
                   <a className="hover:text-rose-600 " href={"#project"}>
-                    <li >Project</li>
+                    <li>Project</li>
                   </a>
                   <a className="hover:text-rose-600 " href={"#blog"}>
-                    <li >Blog</li>
+                    <li>Blog</li>
                   </a>
                   <a className="hover:text-rose-600 " href={"#contact"}>
-                    <li >Contact</li>
+                    <li>Contact</li>
                   </a>
                 </ul>
               </div>
