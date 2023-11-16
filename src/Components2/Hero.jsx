@@ -22,7 +22,7 @@ const Hero = () => {
               xl:items-start
               flex flex-col xl:justify-between sm:justify-around justify-around z-[-10]"
             >
-              <div className="font-normal sm:text-4xl text-2xl  ">
+              <div className=" sm:text-4xl text-xl text-center ">
                 A Digital Product Agency
               </div>
               <div className="text-[16px] text-slate-500 sm:text-center text-center xl:text-start">

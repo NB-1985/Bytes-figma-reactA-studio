@@ -74,40 +74,39 @@ const Navbar2 = () => {
                   <li>Contact</li>
                 </a>
               </ul>
+            </div>
+            {/* //* Responsive view for hamburger menu */}
 
-              {/* Responsive view */}
-              <div
-                onClick={handlenav}
-                className="lg:hidden xl:hidden block cursor-pointer  absolute top-0 right-0 z-10"
+            <div
+              onClick={handlenav}
+              className="lg:hidden block cursor-pointer absolute right-0  z-20 "
+            >
+              {nav ? <BsXSquare size={30} /> : <BsList size={30} />}
+            </div>
+            <div className="w-full absolute top-0 bg-white ">
+              <ul
+                className={`transition-all ease-in-out duration-700 relative ${
+                  nav
+                    ? "flex font-[700]  gap-12 py-24 items-center flex-col"
+                    : "-inset-52 h-0"
+                } `}
               >
-                {nav ? <BsXSquare size={30} /> : <BsList size={30} />}
-              </div>
-              <div className="w-full  absolute left-0 top-0  lg:hidden">
-                <ul
-                  className={`transition-all ease-in-out duration-700 xl:hidden lg:hidden relative
-              ${
-                nav
-                  ? " top-[68px]  bg-white/30 backdrop-blur-md  h-[70vh] flex flex-col justify-around "
-                  : "-top-[217px]"
-              }`}
-                >
-                  <a className="hover:text-rose-600 " href={"#home"}>
-                    <li>Home</li>
-                  </a>
-                  <a className="hover:text-rose-600  " href={"#service"}>
-                    <li>Service</li>
-                  </a>
-                  <a className="hover:text-rose-600 " href={"#project"}>
-                    <li>Project</li>
-                  </a>
-                  <a className="hover:text-rose-600 " href={"#blog"}>
-                    <li>Blog</li>
-                  </a>
-                  <a className="hover:text-rose-600 " href={"#contact"}>
-                    <li>Contact</li>
-                  </a>
-                </ul>
-              </div>
+                <a className="hover:text-rose-600" href={"#home"}>
+                  <li>Home</li>
+                </a>
+                <a className="hover:text-rose-600" href={"#service"}>
+                  <li>Service</li>
+                </a>
+                <a className="hover:text-rose-600" href={"#project"}>
+                  <li>Project</li>
+                </a>
+                <a className="hover:text-rose-600" href={"#blog"}>
+                  <li>Blog</li>
+                </a>
+                <a className="hover:text-rose-600" href={"#contact"}>
+                  <li>Contact</li>
+                </a>
+              </ul>
             </div>
           </div>
         </nav>
